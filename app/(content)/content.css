@@ -1,0 +1,36 @@
+main {
+	nav,
+	article {
+		padding: 32px;
+	}
+	article {
+		margin: 0 32px;
+		max-width: 900px;
+	}
+	.subNav {
+		padding: 16px 32px;
+	}
+	h1 {
+		font-size: 32px;
+		font-weight: 600;
+		letter-spacing: -1.28px;
+	}
+	h2 {
+		font-size: 24px;
+		font-weight: 600;
+		letter-spacing: -0.96px;
+	}
+	article a,
+	footer a {
+		font-weight: 600;
+		text-decoration: underline;
+		text-underline-offset: 2px;
+	}
+	time {
+		font-size: 14px;
+		opacity: 0.6;
+	}
+	article + article {
+		border-top: none;
+	}
+}
