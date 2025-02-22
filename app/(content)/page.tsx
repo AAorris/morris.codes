@@ -35,6 +35,7 @@ export default function Home() {
           alt="Kiddos"
           width={3430}
           height={1575}
+          quality={10}
         />
       </article>
       <article className="border">
@@ -57,6 +58,7 @@ export default function Home() {
           width={4192}
           height={1868}
           alt="Married"
+          quality={10}
         />
       </article>
       <footer className="px-[32px] py-[80px]">
